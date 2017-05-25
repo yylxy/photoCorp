@@ -1,20 +1,29 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven'
-apply plugin: 'signing'
+
 //apply from: '../.publishing/sonatype.gradle'
 
 archivesBaseName = 'android-crop'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion '25.0.0'
+//    compileSdkVersion 23
+//    buildToolsVersion '25.0.0'
+
+
+
+        compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        minSdkVersion 10
-        targetSdkVersion 22
+//        minSdkVersion 14
+//        targetSdkVersion 22
+//
+//        testApplicationId 'com.soundcloud.android.crop.test'
+//        testInstrumentationRunner 'android.test.InstrumentationTestRunner'
 
-        testApplicationId 'com.soundcloud.android.crop.test'
-        testInstrumentationRunner 'android.test.InstrumentationTestRunner'
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
     }
 
     buildTypes {
@@ -34,29 +43,6 @@ dependencies {
 //    androidTestCompile 'com.google.dexmaker:dexmaker:1.0'
 //    androidTestCompile 'com.google.dexmaker:dexmaker-mockito:1.0'
 }
-apply plugin: 'com.github.dcendents.android-maven'
-group = 'com.github.yylxy.photoCorp'
-version = '2.1'
 
 
-task sourcesJar(type: Jar) {
-    from android.sourceSets.main.java.srcDirs
-    classifier = 'sources'
-}
-
-task javadoc(type: Javadoc) {
-    failOnError false
-    source = android.sourceSets.main.java.sourceFiles
-    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
-}
-task javadocJar(type: Jar, dependsOn: javadoc) {
-    classifier = 'javadoc'
-    from javadoc.destinationDir
-}
-
-
-artifacts {
-    archives sourcesJar
-    archives javadocJar
-}
 
