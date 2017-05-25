@@ -53,6 +53,9 @@ public class MainActivity extends Activity {
     private void beginCrop(Uri source) {
         Uri destination = Uri.fromFile(new File(getCacheDir(), "cropped"));
         Crop.of(source, destination).asSquare().start(this);
+
+//        Uri dd = Uri.fromFile(new File(getCacheDir(), "/storage/emulated/0/image/Android_avatar_201610141450566XCJf.png"));
+//        Crop.of(dd, destination).asSquare().start(this);
     }
 
     private void handleCrop(int resultCode, Intent result) {

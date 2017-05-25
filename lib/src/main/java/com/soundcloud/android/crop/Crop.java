@@ -11,6 +11,8 @@ import android.os.Build;
 import android.provider.MediaStore;
 import android.widget.Toast;
 
+import java.io.File;
+
 /**
  * Builder for crop Intents and utils for handling result
  */
@@ -39,6 +41,16 @@ public class Crop {
      */
     public static Crop of(Uri source, Uri destination) {
         return new Crop(source, destination);
+    }
+
+    /**
+     * @param context
+     * @param source  图片路径
+     * @return
+     */
+    public static Crop of(Context context, String source) {
+        Uri destination = Uri.fromFile(new File(context.getCacheDir(), "cropped"));
+        return of(UriUtils.getImageContentUri(context, new File(source)), destination);
     }
 
     private Crop(Uri source, Uri destination) {
@@ -82,6 +94,7 @@ public class Crop {
 
     /**
      * Set whether to save the result as a PNG or not. Helpful to preserve alpha.
+     *
      * @param asPng whether to save the result as a PNG or not
      */
     public Crop asPng(boolean asPng) {
