@@ -27,6 +27,10 @@ dependencies {
 //    androidTestCompile 'com.google.dexmaker:dexmaker:1.0'
 //    androidTestCompile 'com.google.dexmaker:dexmaker-mockito:1.0'
 }
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.yylxy.photoCorp'
+version = '2.1'
+
 
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
