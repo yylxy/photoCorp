@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\studioWorkspace\\demoObject\\android-crop-master\\photoCrop\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\crop__ic_done.png",
+        "source": "D:\\studioWorkspace\\demoObject\\android-crop-master\\photoCrop\\src\\main\\res\\drawable-hdpi\\crop__ic_done.png"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\demoObject\\android-crop-master\\photoCrop\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\crop__divider.9.png",
+        "source": "D:\\studioWorkspace\\demoObject\\android-crop-master\\photoCrop\\src\\main\\res\\drawable-hdpi\\crop__divider.9.png"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\demoObject\\android-crop-master\\photoCrop\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\crop__ic_cancel.png",
+        "source": "D:\\studioWorkspace\\demoObject\\android-crop-master\\photoCrop\\src\\main\\res\\drawable-hdpi\\crop__ic_cancel.png"
+    }
+]

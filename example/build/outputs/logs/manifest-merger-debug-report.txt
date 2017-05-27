@@ -48,7 +48,7 @@ ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\An
 		ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:20:22-77
 uses-sdk
 INJECTED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.github.yylxy:photoCorp:1.1.9] C:\Users\Administrator\.android\build-cache\ca2a6b523c412a99c4135db9a2a6b1299523746f\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.yylxy:photoCorp:1.2.0] C:\Users\Administrator\.android\build-cache\75486d0abfeadd999f697ac839d3bd7299f29e0e\output\AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Administrator\.android\build-cache\5120cdc349bd15367810d08895ac509baf2b6c3f\output\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml

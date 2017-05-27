@@ -30,6 +30,13 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
     //增加依赖的权限
     repositories {
         flatDir {
@@ -48,9 +55,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
-
 //    compile project(':lib')
 
-//    compile 'com.github.yylxy:photoCorp:1.1.8'
-    compile 'com.github.yylxy:photoCorp:1.1.9'
+    compile 'com.github.yylxy:photoCorp:1.2.0'
 }

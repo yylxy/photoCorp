@@ -1,6 +1,38 @@
 [
     {
+        "merged": "D:\\studioWorkspace\\demoObject\\android-crop-master\\example\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a20e6d496aa30edf0b75c390cf78f802af7b6496\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\demoObject\\android-crop-master\\example\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a20e6d496aa30edf0b75c390cf78f802af7b6496\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\demoObject\\android-crop-master\\example\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5a793b756bfc8fd98614e1bad55d99746e6adb8b\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\demoObject\\android-crop-master\\example\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a20e6d496aa30edf0b75c390cf78f802af7b6496\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\demoObject\\android-crop-master\\example\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5a793b756bfc8fd98614e1bad55d99746e6adb8b\\output\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\demoObject\\android-crop-master\\example\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5a793b756bfc8fd98614e1bad55d99746e6adb8b\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\demoObject\\android-crop-master\\example\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a20e6d496aa30edf0b75c390cf78f802af7b6496\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
         "merged": "D:\\studioWorkspace\\demoObject\\android-crop-master\\example\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\crop__selectable_background.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ca2a6b523c412a99c4135db9a2a6b1299523746f\\output\\res\\drawable-v21\\crop__selectable_background.xml"
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75486d0abfeadd999f697ac839d3bd7299f29e0e\\output\\res\\drawable-v21\\crop__selectable_background.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\demoObject\\android-crop-master\\example\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5a793b756bfc8fd98614e1bad55d99746e6adb8b\\output\\res\\drawable-v21\\avd_show_password.xml"
     }
 ]
