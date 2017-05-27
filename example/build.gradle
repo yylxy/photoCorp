@@ -28,5 +28,5 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 //    compile project(':lib')
 
-    compile 'com.github.yylxy:photoCorp:1.1.7'
+    compile 'com.github.yylxy:photoCorp:1.1.8'
 }

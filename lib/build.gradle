@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 //apply from: '../.publishing/sonatype.gradle'
 
-archivesBaseName = 'android-crop'
+//archivesBaseName = 'android-crop'
 
 android {
 //    compileSdkVersion 23
