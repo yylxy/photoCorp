@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "D:\\studioWorkspace\\demoObject\\android-crop-master\\example\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 47,
+                    "endOffset": 98
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\ca2a6b523c412a99c4135db9a2a6b1299523746f\\output\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 47,
+                        "endOffset": 98
+                    }
+                }
+            }
+        ]
+    }
+]

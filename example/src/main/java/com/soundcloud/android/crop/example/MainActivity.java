@@ -57,6 +57,8 @@ public class MainActivity extends Activity {
 
         //第二种方法传一个路径
 //        Crop.of(this, "/storage/emulated/0/image/Android_avatar_20170518102043jLars.png").asSquare().start(this);
+
+//        UriUtils.getImageContentUri()
     }
 
     private void handleCrop(int resultCode, Intent result) {

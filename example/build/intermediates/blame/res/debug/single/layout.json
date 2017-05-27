@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\studioWorkspace\\demoObject\\android-crop-master\\example\\build\\intermediates\\res\\merged\\debug\\layout\\crop__activity_crop.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ca2a6b523c412a99c4135db9a2a6b1299523746f\\output\\res\\layout\\crop__activity_crop.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\demoObject\\android-crop-master\\example\\build\\intermediates\\res\\merged\\debug\\layout\\crop__layout_done_cancel.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ca2a6b523c412a99c4135db9a2a6b1299523746f\\output\\res\\layout\\crop__layout_done_cancel.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\demoObject\\android-crop-master\\example\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\studioWorkspace\\demoObject\\android-crop-master\\example\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

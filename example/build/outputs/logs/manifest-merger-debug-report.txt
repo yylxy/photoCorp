@@ -1,0 +1,58 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:3:5-50
+		INJECTED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml
+		INJECTED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml
+		INJECTED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml
+		INJECTED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml
+application
+ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:5:5-18:19
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Administrator\.android\build-cache\5120cdc349bd15367810d08895ac509baf2b6c3f\output\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:6:9-41
+	android:allowBackup
+		ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:7:9-45
+	android:theme
+		ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:9:9-43
+activity#com.soundcloud.android.crop.example.MainActivity
+ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:10:9-16:20
+	android:name
+		ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:11:13-76
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:12:13-15:29
+action#android.intent.action.MAIN
+ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:14:17-77
+	android:name
+		ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:14:27-74
+activity#com.soundcloud.android.crop.CropImageActivity
+ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:17:9-82
+	android:name
+		ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:17:19-79
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml:20:22-77
+uses-sdk
+INJECTED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.github.yylxy:photoCorp:1.1.9] C:\Users\Administrator\.android\build-cache\ca2a6b523c412a99c4135db9a2a6b1299523746f\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Administrator\.android\build-cache\5120cdc349bd15367810d08895ac509baf2b6c3f\output\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml
+		INJECTED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml
+		INJECTED from D:\studioWorkspace\demoObject\android-crop-master\example\src\main\AndroidManifest.xml

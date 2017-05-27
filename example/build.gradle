@@ -1,16 +1,33 @@
 apply plugin: 'com.android.application'
 
-archivesBaseName = 'android-crop-example'
+//archivesBaseName = 'android-crop-example'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion '25.0.0'
+//    compileSdkVersion 23
+//    buildToolsVersion '25.0.0'
+
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        minSdkVersion 14
-        targetSdkVersion 22
-        versionCode Integer.parseInt(project.VERSION_CODE)
-        versionName project.VERSION
+
+        applicationId "com.soundcloud.android.crop.example"
+//        minSdkVersion 14
+//        targetSdkVersion 22
+//        versionCode Integer.parseInt(project.VERSION_CODE)
+//        versionName project.VERSION
+
+//        minSdkVersion rootProject.ext.minSdkVersion
+//        targetSdkVersion rootProject.ext.targetSdkVersion
+//        versionCode rootProject.ext.versionCode
+//        versionName rootProject.ext.versionName
+
+
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 111
+        versionName "1.1.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
     //增加依赖的权限
@@ -26,7 +43,14 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+
 //    compile project(':lib')
 
-    compile 'com.github.yylxy:photoCorp:1.1.8'
+//    compile 'com.github.yylxy:photoCorp:1.1.8'
+    compile 'com.github.yylxy:photoCorp:1.1.9'
 }

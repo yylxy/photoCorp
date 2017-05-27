@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "D:\\studioWorkspace\\demoObject\\android-crop-master\\example\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tr\\values-tr.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 70,
+                    "endOffset": 166
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\ca2a6b523c412a99c4135db9a2a6b1299523746f\\output\\res\\values-tr\\values-tr.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 70,
+                        "endOffset": 166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 171,
+                    "endColumn": 44,
+                    "endOffset": 211
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\ca2a6b523c412a99c4135db9a2a6b1299523746f\\output\\res\\values-tr\\values-tr.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 171,
+                        "endColumn": 44,
+                        "endOffset": 211
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 216,
+                    "endColumn": 64,
+                    "endOffset": 276
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\ca2a6b523c412a99c4135db9a2a6b1299523746f\\output\\res\\values-tr\\values-tr.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 216,
+                        "endColumn": 64,
+                        "endOffset": 276
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 281,
+                    "endColumn": 63,
+                    "endOffset": 340
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\ca2a6b523c412a99c4135db9a2a6b1299523746f\\output\\res\\values-tr\\values-tr.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 281,
+                        "endColumn": 63,
+                        "endOffset": 340
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 345,
+                    "endColumn": 55,
+                    "endOffset": 396
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\ca2a6b523c412a99c4135db9a2a6b1299523746f\\output\\res\\values-tr\\values-tr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 345,
+                        "endColumn": 55,
+                        "endOffset": 396
+                    }
+                }
+            }
+        ]
+    }
+]
